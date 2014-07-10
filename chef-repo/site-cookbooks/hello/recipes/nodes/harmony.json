@@ -1,0 +1,14 @@
+{
+    "httpd": {
+        "port": 6666
+    },
+    "owner": {
+        "name": "Mr. Ishikawa"
+    },
+    "run_list": [
+        "recipe[hello]"
+    ],
+    "automatic": {
+        "ipaddress": "harmony"
+    }
+}

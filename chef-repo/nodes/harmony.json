@@ -1,0 +1,15 @@
+{
+    "httpd": {
+        "port": 8000
+    },
+    "owner": {
+        "name": "Taka Ishikawa"
+    },
+    "run_list": [
+        "recipe[hello]",
+        "recipe[python]",
+    ],
+    "automatic": {
+        "ipaddress": "harmony"
+    }
+}
